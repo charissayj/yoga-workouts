@@ -11,6 +11,14 @@ function App() {
       <Route exact path="/" component={HomePage} />
       <Route path="/workouts" component={SunSalutationA} />
       <Route path="/balance" component={TraditionalSunSalutation} />
+      <Route path="/sun-a" component={TraditionalSunSalutation} />
+      <Route path="/traditional-sun" component={TraditionalSunSalutation} />
+      <Route path="/energize-and-glow" component={TraditionalSunSalutation} />
+      <Route path="/open-and-release" component={TraditionalSunSalutation} />
+      <Route
+        path="/stretch-and-strengthen"
+        component={TraditionalSunSalutation}
+      />
     </Switch>
   );
 }
