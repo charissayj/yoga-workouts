@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import SunSalutationA from "./sun-salutation-a";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -24,11 +23,17 @@ function HomePage() {
         </li>
       </ul>
 
-      <h4>Or select a target</h4>
+      <h4>Or select a posture series</h4>
       <ul>
-        <li>
-          <Link to="/balance">Balance</Link>
-        </li>
+        <li>Standing</li>
+        <li>Inversion</li>
+        <li>Backbends</li>
+        <li>Forward Bends</li>
+        <li>Hip Openers</li>
+        <li>Balancing Poses</li>
+        <li>Seated and Supine</li>
+        <li>Breathing Exercises</li>
+        <li>Meditation</li>
       </ul>
     </div>
   );

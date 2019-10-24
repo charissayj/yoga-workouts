@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-function SunSalutationA() {
+function EnergizeAndGlow() {
   return (
     <div>
       <h1>AAAAAAAAAAAAA</h1>
@@ -23,4 +23,4 @@ function SunSalutationA() {
   );
 }
 
-export default SunSalutationA;
+export default EnergizeAndGlow;
